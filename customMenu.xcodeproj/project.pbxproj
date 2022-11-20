@@ -12,6 +12,7 @@
 		033DE687292A79E100DAB2A0 /* customMenuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033DE686292A79E100DAB2A0 /* customMenuTests.swift */; };
 		033DE688292A79E100DAB2A0 /* customMenu.h in Headers */ = {isa = PBXBuildFile; fileRef = 033DE67A292A79E100DAB2A0 /* customMenu.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		033DE692292A8E9600DAB2A0 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 033DE691292A8E9600DAB2A0 /* README.md */; };
+		033DE697292A950300DAB2A0 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033DE696292A950300DAB2A0 /* Package.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +32,7 @@
 		033DE681292A79E100DAB2A0 /* customMenuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = customMenuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		033DE686292A79E100DAB2A0 /* customMenuTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customMenuTests.swift; sourceTree = "<group>"; };
 		033DE691292A8E9600DAB2A0 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		033DE696292A950300DAB2A0 /* Package.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 		033DE66D292A79E100DAB2A0 = {
 			isa = PBXGroup;
 			children = (
+				033DE696292A950300DAB2A0 /* Package.swift */,
 				033DE691292A8E9600DAB2A0 /* README.md */,
 				033DE679292A79E100DAB2A0 /* customMenu */,
 				033DE685292A79E100DAB2A0 /* customMenuTests */,
@@ -198,6 +201,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				033DE697292A950300DAB2A0 /* Package.swift in Sources */,
 				033DE67C292A79E100DAB2A0 /* customMenu.docc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -399,6 +403,7 @@
 		033DE68F292A79E100DAB2A0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 84WLNJ2YG4;
@@ -414,6 +419,7 @@
 		033DE690292A79E100DAB2A0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 84WLNJ2YG4;
